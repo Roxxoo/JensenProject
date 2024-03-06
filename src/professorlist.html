@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <!-- <link href="../style/style.css" rel="stylesheet" /> -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@material-tailwind/html@latest/styles/material-tailwind.css"
+    />
+
+    <title>Document</title>
+  </head>
+  <body class="">
+    <script>
+      function redirectToprofessorPage() {
+        window.location.href = "prof1.html";
+      }
+
+      function openDialogBox() {
+        // Display a simple alert dialog
+        window.alert("This is feature is under construction!");
+      }
+    </script>
+
+    <section class="bg-white dark:bg-gray-900">
+      <div class="container px-6 py-10 mx-auto">
+        <h1
+          class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white"
+        >
+          Meet the<span class="text-blue-500"> teachers</span>
+        </h1>
+
+        <p
+          class="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300"
+        ></p>
+
+        <div class="grid md:grid-cols-2 lg:grid-cols-2 gap-8 mt-8 xl:mt-16">
+          <div
+            onclick="openDialogBox()"
+            class="shadow-lg px-12 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent"
+          >
+            <div class="flex flex-col sm:-mx-4 sm:flex-row">
+              <img
+                class="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
+                src="\images\image2.png"
+                alt=""
+              />
+
+              <div class="mt-4 sm:mx-4 sm:mt-0">
+                <h1
+                  class="text-xl font-semibold text-gray-700 capitalize md:text-2xl dark:text-white group-hover:text-white"
+                >
+                  Dr. Dayle Malvino
+                </h1>
+
+                <p
+                  class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"
+                >
+                  ECE Professor
+                </p>
+              </div>
+            </div>
+
+            <p
+              class="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"
+            >
+              Specializes in ECE. Electronics and Communications. Provides one
+              on one tutoring
+            </p>
+
+            <div class="flex mt-4 -mx-2">
+              <!-- Add button here -->
+            </div>
+          </div>
+
+          <div
+            onclick="redirectToprofessorPage()"
+            class="shadow-lg px-12 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent"
+          >
+            <div class="flex flex-col sm:-mx-4 sm:flex-row">
+              <img
+                class="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
+                src="\images\image3.png"
+                alt=""
+              />
+
+              <div class="mt-4 sm:mx-4 sm:mt-0">
+                <h1
+                  class="text-xl font-semibold text-gray-700 capitalize md:text-2xl dark:text-white group-hover:text-white"
+                >
+                  Prof. Ahmed Jimenez
+                </h1>
+
+                <p
+                  class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"
+                >
+                  Mathematics Professor
+                </p>
+              </div>
+            </div>
+
+            <p
+              class="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"
+            >
+              Specializes in Mathematics. Basic algebra to college calculus.
+              Provides one on one tutoring.
+            </p>
+
+            <div class="flex mt-4 -mx-2">
+              <!-- Add button here -->
+            </div>
+          </div>
+
+          <div
+            onclick="openDialogBox()"
+            class="shadow-lg px-12 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl hover:border-transparent group hover:bg-blue-600 dark:border-gray-700 dark:hover:border-transparent"
+          >
+            <div class="flex flex-col sm:-mx-4 sm:flex-row">
+              <img
+                class="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
+                src="\images\image1.png"
+                alt=""
+              />
+
+              <div class="mt-4 sm:mx-4 sm:mt-0">
+                <h1
+                  class="text-xl font-semibold text-gray-700 capitalize md:text-2xl dark:text-white group-hover:text-white"
+                >
+                  Prof Summer Lambino
+                </h1>
+
+                <p
+                  class="mt-2 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"
+                >
+                  Chiropractor Specialist
+                </p>
+              </div>
+            </div>
+
+            <p
+              class="mt-4 text-gray-500 capitalize dark:text-gray-300 group-hover:text-gray-300"
+            >
+              Specializes in Chiropractor Medicine. Provides one on one tutor
+              only
+            </p>
+
+            <div class="flex mt-4 -mx-2">
+              <!-- Add button here -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
